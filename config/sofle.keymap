@@ -147,7 +147,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "CAPSLOCK_HOLD_TAP";
         flavor = "hold-preferred";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <150>;
         quick-tap-ms = <175>;
         #binding-cells = <2>;
         bindings = <&hyper>, <&kp>;
